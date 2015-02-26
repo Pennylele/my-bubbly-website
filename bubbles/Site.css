@@ -1,0 +1,100 @@
+body {
+     background-image: url("background.jpg");
+     }
+
+ul#menu {
+    padding: 80;
+    margin-bottom: 11px;
+}
+
+ul#menu li {
+    display: inline;
+    margin-right: 3px;
+}
+
+ul#menu li a {
+    background-color: none;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #e57490;
+    border-radius: 8px 8px 0 0;
+    font-family: impact;
+    font-size: 20px;
+}
+
+ul#menu li a:hover {
+    color: #d9345d;
+}
+
+p {
+    color: #d9345d;
+    font-family: impact;
+    font-size: 30;
+}
+p
+
+.article{
+    padding:50px 100px;
+    text-align: left
+}
+
+.animation{
+    -webkit-animation: myfirst 30s; /* Chrome, Safari, Opera */
+    animation: myfirst 30s;
+}
+
+    @-webkit-keyframes myfirst {
+    0%   {background: #96ceb4;}
+    10%  {background: #1594ce;}
+    20%  {background: #ff6f69;}
+    30%  {background: #ef4f91;}
+    40%  {background: #88d8b0;}
+    50%  {background: #ea8fa6;}
+    60%  {background: #e7819b;}
+    70%  {background: #e57490;}
+    80%  {background: #88d8b0;}
+    90%  {background: #745151;}
+    100% {background: #000000;}
+}
+
+div .animation{
+    border: 2px solid;
+    display:inline;
+    border-radius: 25px;
+    padding:6px;
+}
+
+#info{
+    font-size: 5px;
+    display:inline;
+
+}
+
+.dividerimage{
+    background-image: repeat;
+}
+
+.glyphicon-heart{
+    background-color:none;
+    padding-top: 20px;
+    color:forestgreen;
+}
+
+
+.para02{
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: left;
+    font-size: 20px;
+    font-family: cooper black;
+    color: forestgreen
+}
+
+.jumbotron{
+    padding: 30px;
+}
+
+.gifimage{
+    border-image:url(green.gif);
+    border-image-repeat: repeat;
+}
