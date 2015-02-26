@@ -4,13 +4,62 @@
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
-    <script src="js/respond.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <script src="lib/angular/angular.min.js"></script>
-      
+    <link href="animate.css" rel="stylesheet">
       <title>CV</title>
       <link href="site.css" rel="stylesheet">
+      <script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
   </head>
+  <style>
+  p{
+    margin-top: 100px;
+    font-family: cooper black;
+    margin-left: 450px;
+    font-size: 20px;
+    color:#ffd97e;
+  }
+
+  input{
+    color:#dd496e;
+  }
+
+  h1{
+    color:forestgreen;
+    text-align: center;
+    font-family: cooper black;
+    margin-top: 100px;
+  }
+
+  .email{
+    border: 5px dotted forestgreen;
+    border-radius: 10em;
+    padding:20px;
+    width:150px;
+    height:150px;
+    color:#dd496e;
+    font-family: cooper black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 550px;
+    margin-top: 60px;
+}
+
+   img{
+    width:200px;
+    margin-left: 150px;
+   }
+
+   aside{
+    display: inline-block;
+    float:left;
+   }
+
+   #butterfly{
+    display: inline-block;
+    float:right;
+    margin-right: 150px;
+
+  </style>
  
     <body>
      <!--row 1: navigation -->
@@ -22,11 +71,17 @@
     <li><a href="Contact.html"><span class="glyphicon glyphicon-heart"></span>Contact</a></li>
   </ul>
 
-  <input type="text" ng-model="name">
-  <h2><span style="color:#ff6f69">Welcome {{name}}</span></h2>
+    <div class="container">
+    <h1 class="name"><div class="animation">Can you tell me your name?</div></h1></div>
+    <aside><img src="butterfly.gif"></aside>
+    <p>Name: <input type="text" ng-model="firstName"></p>
+    <h1>Nice to meet you {{firstName}}!</h1>
+    <aside id="butterfly"><img src="butterfly.gif"></aside>
+    <div class="animated infinite bounce"><div class="email" style="color:#dd496e"><a href="www.https://www.gmail.com/intl/en/mail/help/about.html">Please click and email me!</a></div></div>
+
     
 <script type="text/javascript" src="main.js"></script>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
-    </html>
+</html>

@@ -91,10 +91,15 @@ div .animation{
 }
 
 .jumbotron{
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 0px;
 }
 
-.gifimage{
-    border-image:url(green.gif);
-    border-image-repeat: repeat;
-}
+.name{
+        text-align: center;
+        color:#ffd97e; 
+        margin-top: 110px;
+        padding-bottom: 30px;
+        font-size: 35px; 
+        font-family: cooper black
+      }
