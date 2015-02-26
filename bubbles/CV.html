@@ -48,9 +48,15 @@
 
       .container{
         padding-left: 150px;
-        font-family: Comic Sans MS
         color: forestgreen;
+        display: inline-block;
+        font-family: Comic Sans MS
       }
+
+      .images >li{
+        display: inline;
+      }
+
 
       .panel-group{
         width:890px;
@@ -67,6 +73,18 @@
 
       li{
         font-size:20px;
+      }
+
+      .img-circle{
+        width:150px;
+        height:150px;
+        border:5px dotted forestgreen;
+      }
+
+      .images{
+        text-align: center;
+        margin-top: 50px;
+
       }
 
       </style>
@@ -86,17 +104,18 @@
 
   
   <!--Title-->
-    <h1 class="name">Le Penny Fang<h1>
-    <div id="info">Monterey, CA</div>
-    <div id="info">fangle0121@gmail.com</div>  
-    <div id="info">831-402-7112</div>
-  <!--GIF Divider-->
   <div class="container">
-    <img src="green.gif" alt="divider" width="300px"; length="500px"><img src="green.gif" alt="divider" width="300px"; length="500px"><img src="green.gif" alt="divider" width="300px"; length="500px">
-  </div>
+    <h1 class="name"><div class="animation">Le Penny Fang</div></h1>
+    </div>
+    <div class="images">
+    <li><img src="sunshine.jpeg" class="img-circle"></li>
+    <li><img src="lfang.jpg" class="img-circle"></li>
+    <li><img src="smell.jpg" class="img-circle"></li>
+    <li><img src="Rapunzel.jpg" class="img-circle"></li>
+    </div>
+    </div>
   <!--skills-->
   <div class="container">
-      <h2>Collapse</h2>
       <div class="panel-group" id="accordion">
       <!--language-->
       <div class="panel panel-warning">
@@ -236,6 +255,7 @@
             </div>
           </div>
             </div>
+          </div>
           </div>
           </div>
     
